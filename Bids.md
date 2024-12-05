@@ -1,5 +1,6 @@
-##The simplest bid map possible
-#Going to email you with some questions
+## Philadelphia Area BIDS (no SIDs)
+Emailing you with a couple of questions - lo siento
 
-<iframe src="nj_dispensaries.html" height="500" width="500"></iframe>
+<iframe src="bids.html" height="500" width="500"></iframe>
 
+thanks for looking at this[little map](bids.html).
