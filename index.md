@@ -1,6 +1,7 @@
 # Analysis of Change Surrounding Business Improvement Districts in Philadelphia
 
-Completed for Prof Will Payne's Command Line GIS Course at the Bloustein School of Planning and Public Policy\n Completed by Janet Gleason MCRP Candidate 2025
+**Completed for:** Prof Will Payne's Command Line GIS Course at the Bloustein School of Planning and Public Policy<br>
+**Completed by:** Janet Gleason MCRP Candidate 2025
 
 ## Business Improvement Districts Overview
 
@@ -15,13 +16,13 @@ Various neighborhoods in Philadelphia have long pursued BIDs as a strategy to im
 ### BIDs and Neighborhood Change
 Some of the more recently created BIDs in Philadelphia have formed in areas that have been associated with rapid gentrification. To try and determine what, if any, impact these institutions have had on gentrification in these areas we will examine a collection of change indicators including: Median Household Income (MHHI), Median Rent, Percent Non-Hispanic White Residents, New Residential or Commercial Development, and New Business Formation. To try and parse out the impact that formation has, and try and understand the preconditions for formation, only BIDs that were formed between 2012 and 2022 were selected. This enables us to look at the data mentioned above for a few years before and after formation. Unfortunately, this means only four BIDs were selected, the Mayfair Business Improvement District (Est. 2015), the Northern Liberties BID (Est.2018), the Fishtown BID (Est.2019), and the North Broad Improvement District (Est.2022). These districts are highlighted in blue in the image above. A description of the data sources and the relevant data cleaning use in this analysis are below:
 
-**Median Household Income (MHHI), Median Rent, and % Non-Hispanic White Residents:** 
+**Median Household Income (MHHI), Median Rent, and % Non-Hispanic White Residents:** <br> 
 Data pulled from the American Community Survey 5 year estimates for the years 2010-2022 at the census tract level. Getting data at this granular of a level resulted in some higher CV's, data with CV's over 40 are indicated by crosshatching across the relevant census tract. 
 
-**New Residential or Commercial Development:** 
+**New Residential or Commercial Development:** <br> 
 Data pulled from the Open Philly Licenses and Inspections - Building and Zoning Permits dataset for the years 2007-mid year 2024. This is an incredibly dense dataset that includes permits for home repairs, lot line relocations, and fire safety inspections. To remove these spurious observations, permit data was filtered by the 'Type of Work' column to specify for new construction. The data was further filtered by the 'Permit Description' column to subset for commercial or residential new construction. The codes related to new construction in both columns have significantly changed over the years. A histogram of each variable by year was used to determine which codes were employed over time, in order to avoid subsetting by a code that was only used for portion of the duration of the relevant time period. The dataset was clipped to a quarter mile buffer of the BIDs, which will help estimate neighborhood impact. A new variable that indicated years before or after BID formation was created to temporally normalize all data and improve comparison across different BIDs. 
 
-**New Business Formation:** 
+**New Business Formation:** <br> 
 Data pulled from the Open Philly Licenses and Inspections Business Licenses Dataset. Data for all businesses formed is not available, this dataset only includes permits for businesses activity required to have a license like rental properties, restaurants, vendors, etc. However, these types of businesses are often associated with gentrification and still help us understand the changing nature of a neighborhood. The dataset was further subset to exclude licenses for things such as dumpsters, towing permits, or scales and scanner permits, which are not indicative of new businesses forming. The Initial Formation Date column was used to determine business formation date. Additionally, the distance between business location, given in the xy coordinates of each observation, and owner location, written as text was used to determine change in localized ownership rates. The get the distance between the two locations in miles, the centroid from the ZIP code given in the owner address was taken and distance was calculated between the centroid and the business location. Locations within the same zip code were counted as 0, as this represents localized ownership. This data was clipped to the BID boundaries and not the BID buffer boundaries to focus on the impact of businesses within the district. A new variable that indicated years before or after BID formation was created to temporally normalize all data and improve comparison across different BIDs.
 
 ### A Decade of Change
