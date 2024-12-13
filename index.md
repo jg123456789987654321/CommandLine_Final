@@ -1,7 +1,7 @@
 # Analysis of Change Surrounding Business Improvement Districts in Philadelphia
 
+**Completed by:** Janet Gleason MCRP Candidate 2025<br>
 **Completed for:** Prof Will Payne's Command Line GIS Course at the Bloustein School of Planning and Public Policy<br>
-**Completed by:** Janet Gleason MCRP Candidate 2025
 **Submitted on:** December 14th, 2024
 
 ## Business Improvement Districts Overview
