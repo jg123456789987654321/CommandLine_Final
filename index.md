@@ -1,7 +1,6 @@
 # Analysis of Change Surrounding Business Improvement Districts in Philadelphia
 
-Completed for Prof Will Payne's Command Line GIS Course at the Bloustein School of Planning and Public Policy
-Completed by Janet Gleason MCRP Candidate 2025
+Completed for Prof Will Payne's Command Line GIS Course at the Bloustein School of Planning and Public Policy\n Completed by Janet Gleason MCRP Candidate 2025
 
 ## Business Improvement Districts Overview
 
