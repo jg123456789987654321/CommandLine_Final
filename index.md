@@ -35,4 +35,4 @@ Below is a map illustrating the number of new construction permits and new busin
 
 
 
-<iframe src="interactive_map2.html" height="500" width="500"></iframe>
+<iframe src="interactive_map2.html" height="600" width="900"></iframe>
