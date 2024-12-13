@@ -11,10 +11,7 @@ Various neighborhoods in Philadelphia have long pursued BIDs as a strategy to im
 ![BIDs context.png](https://github.com/jg123456789987654321/CommandLine_Final/blob/main/BIDs%20context.png?raw=true)
 
 ### BIDs and Neighborhood Change
-Some of the more recently created BIDs in Philadelphia have formed in areas that are in the very early stages of gentrification or are in full swing of gentrification. To try and determine what, if any, impact these institutions have had on gentrification in these areas we will examine a collection of change indicators including: Median Household Income (MHHI), Median Rent, Percent Non-Hispanic White Residents, New Residential or Commercial Development, and New Business Formation. To try and parse out the impact that formation has, and try and understand the preconditions for formation, only BIDs that were formed between 2012 and 2022 were selected. This enables us to look at the data mentioned above for a few years before and after formation. Unfortunately, this means only four BIDs were selected, the Mayfair Business Improvement District (Est. 2015), the Northern Liberties BID (Est.2018), the Fishtown BID (Est.2019), and the North Broad Improvement District (Est.2022).   
-
-
-(Insert Map with Slider that shows Census Data over time and BID formation over time)
+Some of the more recently created BIDs in Philadelphia have formed in areas that are in the very early stages of gentrification or are in full swing of gentrification. To try and determine what, if any, impact these institutions have had on gentrification in these areas we will examine a collection of change indicators including: Median Household Income (MHHI), Median Rent, Percent Non-Hispanic White Residents, New Residential or Commercial Development, and New Business Formation. To try and parse out the impact that formation has, and try and understand the preconditions for formation, only BIDs that were formed between 2012 and 2022 were selected. This enables us to look at the data mentioned above for a few years before and after formation. Unfortunately, this means only four BIDs were selected, the Mayfair Business Improvement District (Est. 2015), the Northern Liberties BID (Est.2018), the Fishtown BID (Est.2019), and the North Broad Improvement District (Est.2022). These districts are highlighted in blue in the image above. 
 
 A description of the data sources and the relevant data cleaning use in this analysis is below:
 
@@ -30,6 +27,8 @@ Data pulled from the Open Philly Licenses and Inspections Business Licenses Data
 ### A Decade of Change
 The maps below examine Median Rent, Median Household Income, and Percent of White Non-Hispanic Residents by the Census Tract in 2012 and in 2022. There has been tremendous change in Philadelphia in the past decade and to compare the simple numeric values of each of these measure in both time periods would not help us understand which neighborhoods experienced the most amount of change. To understand the relative change compared to different areas within the city, a Ratio of Census tract value to the average of each category (rent, income, and % white) across all census tracts was created. A ratio below 1 indicates that the census tract has a value less than the city average, a ratio of 1 indicates the census tract is inline with the city average, and a ratio above 1 means the census tract has a value above the city average. For example, this ratio can help identify a census tract that had below average income in 2012, but above average incomes in 2022. Areas that jumped from ratios below 1 in 2012 to ratios above 1 in 2022 have experienced change at a faster rate than the city average. 
 
+![6Maps]([https://github.com/jg123456789987654321/CommandLine_Final/blob/main/BIDs%20context.png?raw=true](https://github.com/jg123456789987654321/CommandLine_Final/blob/main/StaticMapsx6_Ratio.png?raw=true))
+
 There does appear to be a modest relationship between BID presence and change in levels of Income and the share of White residents, especally in the Fishtown, Kensington, and North Broad BIDs. However, we cannot determine if this relationship is causal without further investigation. 
 
 ### New Construction Permits and New Business Licenses Relative to BID Formation
@@ -37,6 +36,6 @@ Below is a map illustrating the number of new construction permits and new busin
 
 
 
-<iframe src="bids.html" height="500" width="500"></iframe>
+<iframe src="interactive_map2.html" height="500" width="500"></iframe>
 
 
