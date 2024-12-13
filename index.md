@@ -39,4 +39,8 @@ Below is a map illustrating the number of new construction permits and new busin
 
 
 
+## Points for Further Study ##
+This preliminary review of the relationship between BIDs and gentrification highlights the need for further study on this topic. As the continued formation of BIDs in Philadelphia indicate their continued popularity among local businesses leaders and the city government, it is critical that politicians and planners understand the long-term impacts of these entities. A more in-depth longitudinal study, tracking the indicators listed above, as well as 311 data, arrest data, and tax records could help create a more wholistic view of the role BIDs play in transforming neighborhoods. 
+
+
 <iframe src="interactive_map2.html" height="850" width="1200"></iframe>
