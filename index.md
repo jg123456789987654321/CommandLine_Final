@@ -37,10 +37,10 @@ There does appear to be a modest relationship between BID presence and change in
 To futher understand the relationship between BIDs and neighborhood change, we can examine the rates of new construction and new business formation in the area around a BID both before and after formation. 
 Below is a map illustrating the number of new construction permits and new business licenses in the areas surrounding BIDS. As previously mentioned, the timeline of these permits and licenses is relative to BID formation in the area. 
 
-
+<iframe src="interactive_map2.html" height="850" width="1200"></iframe>
 
 ## Points for Further Study ##
 This preliminary review of the relationship between BIDs and gentrification highlights the need for further study on this topic. As the continued formation of BIDs in Philadelphia indicate their continued popularity among local businesses leaders and the city government, it is critical that politicians and planners understand the long-term impacts of these entities. A more in-depth longitudinal study, tracking the indicators listed above, as well as 311 data, arrest data, and tax records could help create a more wholistic view of the role BIDs play in transforming neighborhoods. 
 
 
-<iframe src="interactive_map2.html" height="850" width="1200"></iframe>
+
